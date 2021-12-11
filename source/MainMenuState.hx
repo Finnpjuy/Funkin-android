@@ -1,6 +1,6 @@
 package;
 
-import openfl.Assets;
+ ;
 #if desktop
 import Discord.DiscordClient;
 #end
@@ -42,7 +42,7 @@ class MainMenuState extends MusicBeatState
 	var data:AndroidData = new AndroidData();
 
 	override function create()
-	{
+	{source/MainMenuState.hx
 		#if desktop
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
